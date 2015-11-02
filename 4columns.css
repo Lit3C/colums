@@ -1,0 +1,94 @@
+/*--------------------------------------------------------GENERAL---------------*/
+#dbody {
+    margin: auto 100px;
+    padding-top: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: #BDBDBD;
+}
+/*---------------------------------------------------------TOPBAR---------------*/
+.topbar {
+    padding: 5px 50px;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+}
+.topbar table{
+  border-spacing: 60px  0px;
+}
+
+.topbar a {
+  color: #6E6E6E;
+}
+.topbar a:hover {
+  color: #FFF;
+}
+/*---------------------------------------------------------HEADER---------------*/
+
+.header {
+  padding-top: 20px;
+  marging-bottom: 0px;
+}
+
+.secondarytext {
+    color: #6E6E6E;
+    font-size: 0.7em;
+}
+/*----------------------------------------------------------CONTENT-------------*/
+.content {
+
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.img:hover {
+  background-color: red;
+}
+
+#contentbox {
+  border-spacing: 10px;
+}
+/*-------------------------------------------------------------FOOTER-----------*/
+.footer {
+  margin: 50px 30%;
+}
+#pagination {
+  list-style-type: none;
+  display: block;
+}
+
+li {
+  border:1px solid #6E6E6E;
+  border-radius: 5px;
+  padding: 2px 5px;
+  text-align: center;
+  display: inline;
+}
+li a {
+  color: #1C7848;
+}
+li:hover {
+  background-color: #D2D2D2;
+}
+
+.previous {
+
+}
+.active {
+  background-color: blue;
+}
+.active a {
+  color: white;
+}
+.next {
+
+}
+/*----------------------------------------------------------BOTTOMBAR-----------*/
+.bottombar {
+
+}
